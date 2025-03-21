@@ -8,6 +8,7 @@ import torchvision.transforms as transforms
 from torch.utils.data import Dataset, DataLoader
 from torchvision.utils import save_image
 
+#Load the data
 samples_path = "Humans"
 output_images_path = "Generated_Images"
 os.makedirs(output_images_path, exist_ok=True)
